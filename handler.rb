@@ -1,6 +1,12 @@
 require 'json'
 
 def hello(event:, context:)
+  puts "start >>>>>"
+  puts Time.now
+  sleep 2
+  puts Time.now
+  puts "end >>>>>"
+
   {
     statusCode: 200,
     body: {
