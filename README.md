@@ -7,3 +7,9 @@ ServerlessFrameworkを使用してSQS→Lambdaを構築する
 ```sh
 $ serverless deploy --aws-profile XXXX
 ```
+
+serverlessだけだとキューに関する設定などを詳細に行えないため`serverless-lift`を入れる
+
+```sh
+$ serverless plugin install -n serverless-lift
+```
